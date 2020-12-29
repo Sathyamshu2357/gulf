@@ -1,4 +1,4 @@
-var deviceis;
+var deviceis=1;
 
 function defineCss() {
     let h = window.outerHeight;
@@ -10,6 +10,6 @@ function defineCss() {
 }
 
 function changeCss(value) {
-    if (value == 0) { document.getElementById('csssheet').href = "css/desktop.css"; }
-    else if (value == 1) { document.getElementById('csssheet').href = "css/mobile.css"; }
+    if (value == 0) { document.getElementById('csssheet').href = "css/desktop.css"; console.log("desktop view"); }
+    else if (value == 1) { document.getElementById('csssheet').href = "css/mobile.css"; console.log("mobile view"); }
 }

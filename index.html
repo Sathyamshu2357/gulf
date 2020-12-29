@@ -3,11 +3,12 @@
         <title>UTI Gulf Corporation</title>
         <link rel="icon" type="image/png" href="assets/logo.jpg">
         <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/desktop.css">
-        <link rel="javascript" href="js/general.js">
+        <link id="csssheet" rel="stylesheet" href="css/desktop.css">
+        <script src="js/general.js"></script>
+        <script src="js/mobile.js"></script>
     </head>
 
-    <body onresize="changeCss()" onload="changeCss()">
+    <body onresize="defineCss()" onload="changeCss()">
         <div class="header-container">
             <div class="company-name-container">
                 <div class="company-logo">
@@ -24,15 +25,25 @@
         </div>
 
 
-        <div class="menu-container">
+        <div class="desktop-menu-container">
             <center>
-                <button class="page-button" onclick="changeContent(0)"> Home </button>
-                <button class="page-button" onclick="changeContent(1)"> Who We Are </button>
-                <button class="page-button" onclick="changeContent(2)"> What We Do </button>
-                <button class="page-button" onclick="changeContent(3)"> Our Presence </button>
-                <button class="page-button" onclick="changeContent(4)"> Our Crew </button>
-                <button class="page-button" onclick="changeContent(5)"> Contact Us </button>
+                <button class="desktop-page-button" onclick="changeContent(0)"> Home </button>
+                <button class="desktop-page-button" onclick="changeContent(1)"> Who We Are </button>
+                <button class="desktop-page-button" onclick="changeContent(2)"> What We Do </button>
+                <button class="desktop-page-button" onclick="changeContent(3)"> Our Presence </button>
+                <button class="desktop-page-button" onclick="changeContent(4)"> Our Crew </button>
+                <button class="desktop-page-button" onclick="changeContent(5)"> Contact Us </button>
             </center>
+        </div>
+
+        <div class="mobile-menu-container">
+            <button class="bar" style="float: right; display: block;" onclick="menuBar()"><i class="fa fa-bars" aria-hidden="true"></i></button>
+                <button class="mobile-page-button"> Home </button>
+                <button class="mobile-page-button"> Who We Are </button>
+                <button class="mobile-page-button"> What We Do </button>
+                <button class="mobile-page-button"> Our Presence </button>
+                <button class="mobile-page-button"> Our Crew </button>
+                <button class="mobile-page-button"> Contact Us </button>
         </div>
 
     </body>

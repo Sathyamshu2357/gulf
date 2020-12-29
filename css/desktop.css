@@ -3,8 +3,7 @@ body,div { margin:0; border:0; padding:0; }
 div.header-container {
     height: 40px;
     background-color: white;
-    width: 100%;
-    
+    width: 100%;   
 }
     div.company-name-container {
         margin:3; border:3; padding:3;
@@ -46,7 +45,7 @@ button.icon-button {
 
     }
 
-button.page-button {
+button.desktop-page-button {
     border:0; margin:15;
     padding-top: 7; padding-bottom: 7; padding-left: 25; padding-right: 25;
     border-radius: 25px; 
@@ -61,11 +60,15 @@ button.page-button {
 
 }
 
-div.menu-container{
+div.desktop-menu-container{
     background-color: black;
     display: block;
     position: fixed;
     width: 100%;
+}
+
+div.mobile-menu-container {
+    display: none;
 }
 
 
