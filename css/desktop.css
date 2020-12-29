@@ -1,12 +1,13 @@
 body,div { margin:0; border:0; padding:0; }
 
 div.header-container {
-    height: auto;
+    height: 40px;
     background-color: white;
     width: 100%;
+    
 }
     div.company-name-container {
-        margin:5; border:5; padding:5;
+        margin:3; border:3; padding:3;
         font-size: 28px;
         color:black;
         float: left;
@@ -24,7 +25,7 @@ div.header-container {
         }
 
     div.icons-container {
-        margin:10; border: 10; padding: 10;
+        margin:5; border: 5; padding: 5;
         float:right;
     }
 
@@ -44,6 +45,28 @@ button.icon-button {
         cursor: pointer;
 
     }
+
+button.page-button {
+    border:0; margin:15;
+    padding-top: 7; padding-bottom: 7; padding-left: 25; padding-right: 25;
+    border-radius: 25px; 
+    text-align: center; 
+    font-size:x-large;
+    background-color: #3298dc; 
+    transition: 0.1s;
+    color: white; 
+    outline: none;
+    font-size: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+div.menu-container{
+    background-color: black;
+    display: block;
+    position: fixed;
+    width: 100%;
+}
 
 
 
