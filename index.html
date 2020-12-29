@@ -9,7 +9,7 @@
 
     </head>
 
-    <body onresize="defineCss()" onload="defineCss()">
+    <body onresize="defineCss()" onload="defineCss(); intervals()">
     <div class="fixed-container">
         <div class="header-container">
             <div class="company-name-container">
@@ -48,9 +48,14 @@
         </div>
     </div>
 
+    <center>
     <div class="image-container">
-        
+        <img id="sliderid" class="slider" src="assets/slider1.jpg"></image><br>
+        <button class ="slider-button" onclick="changeSlide(0)"></button>
+        <button class ="slider-button" onclick="changeSlide(1)"></button>
+        <button class ="slider-button" onclick="changeSlide(2)"></button>
     </div>
+    </center>
 
         
 

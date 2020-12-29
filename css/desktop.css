@@ -81,6 +81,18 @@ div.image-container {
     margin: 10px; padding-top: 150;
 }
 
+img.slider {
+    border:3px solid green;
+    height:450px;
+    width: 1250px;
+}
+
+button.slider-button:hover {
+    background-color: black;
+    outline: none;
+    margin: 0;;
+}
+
 
 
 

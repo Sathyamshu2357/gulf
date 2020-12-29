@@ -84,5 +84,17 @@ div.mobile-menu-container{
 div.image-container {
     display: block;
     width: 100%;
-    margin: 10px; padding-top: 120;
+    margin: 0; border: 0; padding: 0; padding-top: 120;
+}
+
+img.slider {
+    border:3px solid green;
+    height:250px;
+    width: 100%;
+}
+
+button.slider-button:hover {
+    background-color: black;
+    outline: none;
+    margin: 0;;
 }
