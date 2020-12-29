@@ -1,4 +1,4 @@
-var deviceis=1;
+var deviceis=2;
 
 function defineCss() {
     let h = window.outerHeight;

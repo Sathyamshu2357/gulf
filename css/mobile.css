@@ -61,6 +61,10 @@ button.mobile-page-button, button.bar {
     width: max-content;
 }
 
+div.desktop-menu-container{
+    display: none;
+}
+
 div.mobile-menu-container{
     padding:5;
     background-color: black;
@@ -70,6 +74,4 @@ div.mobile-menu-container{
     height: fit-content;
 }
     
-div.desktop-menu-container{
-    display: none;
-}
+
