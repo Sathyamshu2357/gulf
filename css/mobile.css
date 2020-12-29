@@ -1,0 +1,8 @@
+body,div { margin:0; border:0; padding:0; }
+
+div.header-container {
+    height: 30px;
+    background-color: white;
+    width: 100%;
+}
+

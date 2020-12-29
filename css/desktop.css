@@ -1,0 +1,51 @@
+body,div { margin:0; border:0; padding:0; }
+
+div.header-container {
+    height: auto;
+    background-color: white;
+    width: 100%;
+}
+    div.company-name-container {
+        margin:5; border:5; padding:5;
+        font-size: 28px;
+        color:black;
+        float: left;
+    }
+        div.company-logo {
+            float:left;
+            height: 30px;
+            width: 80px;
+        }
+
+        div.company-name {
+            float:left;
+            font-size: 25px;
+            color:darkblue;
+        }
+
+    div.icons-container {
+        margin:10; border: 10; padding: 10;
+        float:right;
+    }
+
+
+
+button.icon-button {
+    background-color: #00d1b2;
+    color : #fff;
+    border-radius: 5px;
+    border : 1px solid transparent;
+    font-size: larger;
+    transition: 1.5s;
+}
+    button.icon-button:hover {
+        background-color: green;
+        transform:rotate(360deg);
+        cursor: pointer;
+
+    }
+
+
+
+
+
