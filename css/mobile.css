@@ -1,32 +1,38 @@
 body,div { margin:0; border:0; padding:0; }
 
-div.header-container {
-    height: 40px;
-    background-color: white;
+div.fixed-container {
+    border:0; margin:0; padding:0;
     width: 100%;
+    position: fixed;
 }
 
-    div.company-name-container {
-        margin:3; border:3; padding:3;
-        font-size: 28px;
-        color:black;
-        float: left;
+    div.header-container {
+        height: 40px;
+        background-color: white;
+        width: 100%;
+        display: block;
     }
-        div.company-logo {
-            float:left;
-            height: 30px;
-            width: 80px;
+        div.company-name-container {
+            margin:3; border:3; padding:3;
+            font-size: 28px;
+            color:black;
+            float: left;
         }
+            div.company-logo {
+                float:left;
+                height: 30px;
+                width: 80px;
+            }
 
-        div.company-name {
-            float:left;
-            font-size: 25px;
-            color:darkblue;
+            div.company-name {
+                float:left;
+                font-size: 25px;
+                color:darkblue;
+            }
+        div.icons-container {
+            margin:6; border: 6; padding: 6;
+            float:right;
         }
-    div.icons-container {
-        margin:6; border: 6; padding: 6;
-        float:right;
-    }
 
 
 
@@ -72,6 +78,11 @@ div.mobile-menu-container{
     position: fixed;
     width: 100%;
     height: fit-content;
+    position: fixed;
 }
     
-
+div.image-container {
+    display: block;
+    width: 100%;
+    margin: 10px; padding-top: 120;
+}
